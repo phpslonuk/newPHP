@@ -3,24 +3,21 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Home work</title>
-
 </head>
 <body>
 <?php
 # Lesson 8_2  page 24 task 1
-
 # ( echo "{$item}"; echo "<br>"; ) unnecessary
-
 # *foreach* то є ЗЛО !!!!!!! 
-function findNumber($arr, $num){
-	$isNuun  = false;
+function findNumber($arr, $num) {
+  $isNuun  = false;
 	foreach ($arr as $item) {
-		echo "{$item}";
-		echo "<br>";
-		if($item === $num){
-			$isNuun = true;
-			break;
-		} 
+	  echo "{$item}";
+	  echo "<br>";
+	  if ($item === $num) {
+	    $isNuun = true;
+		break;
+	  } 
 	} return $isNuun;
 }
 
@@ -35,26 +32,23 @@ echo "<hr>";
 echo "<br>";
 
 # Lesson 8_2  page 24 task 2
-
 # ( echo "{$item}"; echo "<br>"; ) unnecessary
-
 # *foreach* то є ЗЛО !!!!!!! 
 
-function findNumberInArray($arr, $num){
-	$results  = 0;
-	foreach ($arr as $item) {
-		echo "{$item}";
-		echo "<br>";
-		if($item === $num){
-			$results = $results + 1;
-			
-		} 
+function findNumberInArray($arr, $num) {
+  $results  = 0;
+  foreach ($arr as $item) {
+	echo "{$item}";
+	echo "<br>";
+	if ($item === $num) {
+	  $results = $results + 1;
+	} 
 	} return $results;
 }
 
 $findnum = findNumberInArray($array, $number);
 echo "string + {$findnum}";
-
 ?>
+
 </body>
 </html>

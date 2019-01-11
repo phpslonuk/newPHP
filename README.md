@@ -1,6 +1,5 @@
-# newPHP
-if you want everything to work for you.
+# Skillup homeworks
 
-run your web server and copy everything into a folder domains.
+copy all files to your webserver 
 
-start at index.php
+
